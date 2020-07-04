@@ -285,7 +285,7 @@ public class DES_MainApplication extends JFrame implements ActionListener {
         int x = pl.length();
         String Res = "";
 
-        dES_encode encode = new dES_encode();
+          desEncode encode = new desEncode();
         encode.setBig_key(encode.hex_to_bin(key.toUpperCase()));
 
 
@@ -322,7 +322,7 @@ public class DES_MainApplication extends JFrame implements ActionListener {
         int x = ci.length();
         String Res = "";
 
-        des_decode decode = new des_decode();
+        desDecode decode = new desDecode();
         decode.setBig_key(decode.hex_to_bin(key));
 
         double size = 0;
